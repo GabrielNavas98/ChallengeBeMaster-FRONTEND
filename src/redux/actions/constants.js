@@ -1,0 +1,18 @@
+export const USER_LOGIN = 'USER_LOGIN';
+export const USER_REGISTER = 'USER_REGISTER';
+export const USER_LOGOUT = 'USER_LOGOUT';
+export const USER_UPDATE = "USER_UPDATE";
+export const USER_DELETE = 'USER_DELETE';
+
+export const USER_REGISTER_CLEAR = 'USER_REGISTER_CLEAR';
+export const GET_ALL_USER = 'GET_ALL_USER';
+export const GET_USER_ID = 'GET_USER_ID'; 
+
+export const GET_ALL_CONTENT = 'GET_ALL_CONTENT';
+export const GET_CONTENT_DETAIL = 'GET_CONTENT_DETAIL';
+export const CREATE_CONTENT = 'CREATE_CONTENT';
+export const GET_UPCOMING = "GET_UPCOMING";
+
+export const GET_CATEGORIES = 'GET_CATEGORIES';
+
+export const CLEAN_DETAIL = 'CLEAN_DETAIL';

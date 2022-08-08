@@ -1,0 +1,84 @@
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: translate(-5%, 0);
+}
+
+.mybtn{
+    color: #EFEFEF;
+    text-decoration: none;
+    font-weight: 700;
+    padding-left: 29px;
+    margin-right: 40px;
+    background-color: rgba(33, 37, 41);
+    border: none;
+}
+.mybtn:hover{
+    color: #F66B0E;
+}
+
+.footHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-right: 20px;
+}
+h3{
+    color: #292727;
+    font-weight: 600;
+    display: inline;
+    font-size:medium;
+    margin-right: 15px;
+}
+
+.logout{
+    color: rgba(33, 37, 41);
+    font-weight: 600;
+    display: inline;
+    font-size:medium;
+    margin-right: 15px
+}
+
+.conte{
+    display:flex;
+    align-items: center;
+}
+
+.aux{
+    display: flex;
+    flex-direction: row;
+}
+
+.perfil{
+    background-color: rgba(33, 37, 41);
+    border: none;
+}
+.drop{
+    position: relative;
+    right: 50px;
+}
+.drop h3{
+    color: #EFEFEF;
+    padding-left: 10px ;
+}
+
+.drop ul {
+    background-color: rgba(33, 37, 41);
+    text-align: center;
+    border: 1px solid #EFEFEF;
+}
+
+.userName:hover {
+    color: #F66B0E;
+}
+
+
+

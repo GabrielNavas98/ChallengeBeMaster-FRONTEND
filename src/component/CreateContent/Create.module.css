@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(50%, 20%);
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(17, 16, 16, 0.887);
+    border-radius: 20px;
+    color: #ffff;
+    padding: 20px;
+}
+.box{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.form_box{
+    width: 300px;
+}
+
+.preview_img{
+    position: relative;
+    width: auto;
+    height: 310px;
+    filter: drop-shadow(5px 10px 15px rgba(8,9,13,.4));
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preview_img img{
+    object-fit: cover;
+    max-height: 310px;
+    padding: 20px;
+}
+
+.btn_box{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}

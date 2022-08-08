@@ -1,0 +1,12 @@
+.admin_dash{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 40px;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 150px;
+    margin-top: 20px;
+    justify-items: center;
+}
