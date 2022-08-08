@@ -18,7 +18,7 @@ function App() {
   return (
     <Fragment>
         <Routes>
-          <Route path='/SignIn' element={<SignIn/>}/>
+          <Route path='/' element={<SignIn/>}/>
           <Route path='/home' element={<Private><Home/></Private>}/>
           <Route path='/home/:id' element={<Private><Detail/></Private>}/>
           <Route path='/signUp' element={<SignUp/>}/>

@@ -13,7 +13,7 @@ const Navbar = () => {
     const handleLogout = (e) => {
         e.preventDefault();
         dispatch(userLogout());
-        navigate("/SignIn",{replace:true})
+        navigate("/",{replace:true})
     };
 
     return(

@@ -36,7 +36,7 @@ export default function SignUp () {
     setErrors(submitValidations(user));
     if (Object.keys(errors).length === 0 && user.user_name !== "" && user.user_email !== "" && user.password !== "") {
       dispach(registerUser(user));
-      navigate("/signin",{replace:true});
+      navigate("/",{replace:true});
     }
   }
 
@@ -85,7 +85,7 @@ export default function SignUp () {
           </button>
         </div>
         <p className="forgot-password text-right">
-          Already registered <a href="/SignIn">sign in?</a>
+          Already registered <a href="/">sign in?</a>
         </p>
       </form>
     </div>
