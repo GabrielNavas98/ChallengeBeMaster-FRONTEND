@@ -11,6 +11,11 @@
     color: #ffff;
     padding: 20px;
 }
+.container h3{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #ffff;
+}
 .box{
     display: flex;
     width: 100%;

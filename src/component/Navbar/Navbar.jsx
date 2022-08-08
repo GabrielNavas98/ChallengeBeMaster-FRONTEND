@@ -59,15 +59,20 @@ const Navbar = () => {
                                         </li> : 
                                         <li></li>
                                 }
+                                {
+                                    user && user.isAdmin && !window.location.href.includes("/create") ?
+                                        <li>
+                                            <NavLink to="/create">
+                                                <button className={style.mybtn}>Create</button>
+                                            </NavLink>
+                                        </li> : 
+                                        <li></li>
+                                }
                             </ul>
                         </div>
                         : null
                 }
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
-                        <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
-                    </svg>
-                </button>
+                
             </div>
         </nav>
     )
